@@ -5,14 +5,20 @@
     padding-top: 50px; /* Adjust this value to position the pyramid vertically */
 }
 
+.slider-container img {
+  width: auto;
+  height: 550px;
+  object-fit: cover;
+}
+
 .slick-slide {
-    transform: scale(0.9); /* Adjust this value for the size of non-active slides */
+    transform: scale(0.9) translateX(-20px); /* Adjust this value for the size of non-active slides */
     transition: transform 0.3s ease-in-out;
     z-index: 1;
 }
 
 .slick-center {
-    transform: scale(1) translateY(-20px); /* Adjust the translateY value to raise the active slide */
+    transform: scale(1) translateX(-20px); /* Adjust the translateY value to raise the active slide */
     z-index: 3;
 }
 
