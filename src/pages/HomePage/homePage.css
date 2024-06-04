@@ -1,0 +1,65 @@
+.navbarContainer {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.heroSection {
+  width: 100%;
+  height: 100%;
+  background: url('../../assets/images/HomeBg.png') no-repeat center center;
+  margin-bottom: 0;
+}
+
+.heroContainer{
+    width: 100%;
+  height: 100%;
+  display: flex;
+ 
+}
+.heroContent{
+width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ 
+  padding: 60px;
+}
+.heading{
+    font-family: "Bebas Neue" , sans-serif;
+    font-size: 90px;
+    padding: 0;
+    margin: 0;
+    text-align: start;
+}
+.span1 , .span2{
+   
+    background: linear-gradient(90deg, #D38D1A ,#343ADA);
+     -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.description{
+ font-family: "Montserrat" , sans-serif ;
+ font-size: 20px;
+}
+.subscribeButton{
+    padding: 16px 40px;
+  border-radius: 8px;
+  background-color: #f0f0f3;
+  box-shadow: 4px 4px 8px #bebebe, -4px -4px 8px #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 20px;
+  font-weight: 600;
+  width:fit-content;
+  border: none;
+  margin-bottom:30px;
+}
+.subscribeButton:hover{
+    box-shadow: inset 4px 4px 8px #d1d1d4, inset -4px -4px 8px #ffffff;
+  color: #E9A032;
+}
+.heroSlider{
+  width: 50%;
+}

@@ -1,0 +1,163 @@
+.hero-section {
+  width: 100%;
+}
+
+.hero-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  
+}
+
+.eclipse-one {
+  width: 66.67%;
+  height: 20rem;
+  background: url('../../assets/images/Ellipse 13.png') no-repeat center center; 
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-images {
+  position: absolute;
+  z-index: 40;
+  top: 0.75rem;
+  width: 66.67%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-image {
+  width: 7rem;
+  height: 7.5rem;
+  cursor: pointer;
+}
+
+.text-div {
+  width: 100%;
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.text-image {
+  width: 24rem;
+}
+
+.bottom-images {
+  width: 100%;
+  position: absolute;
+  bottom: 2.5rem;
+  z-index: 22;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-image {
+  cursor: pointer;
+  width: 8rem;
+  height: 8.5rem;
+}
+
+.eclipse-two {
+  width: 66.67%;
+  height: 15rem;
+  background: url('../../assets/images/Ellipse 12.png') no-repeat center center; /* Replace with your background image path */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  position: relative;
+  z-index: 19;
+}
+
+.center-image-container {
+  position: relative;
+  width: 12rem;
+  height: 15.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-image-overlay {
+  cursor: pointer;
+  position: absolute;
+  left: 0.5rem;
+  width: 100%;
+  height: 100%;
+  
+  z-index: 24;
+  bottom: 2.5rem;
+}
+
+.center-image {
+  object-fit: cover;
+  cursor: pointer;
+  position: absolute;
+  z-index: 40;
+  width: 12rem;
+  margin-bottom: 5rem;
+}
+
+.aboutUsContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 4px 4px 8px #bebebe, -4px -4px 8px #ffffff;
+  margin: 50px;
+  padding: 50px;
+}
+.headingAbout{
+  font-family: "Bebas Neue" , sans-serif;
+  font-size: 36px;
+  background: linear-gradient(90deg, #E9A032 ,#F5C26E);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.content{
+   width: 45%; 
+    text-align: left;
+    font-family: "Montserrat" , sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.aboutDivider{
+width: 4px; 
+    height: 100%;
+   border-radius: 6px;
+  box-shadow: 4px 4px 8px #0a0101, -4px -4px 8px #ffffff;
+    margin: 0 32px 
+}
+.descriptionAbout{
+  width: 100%; 
+    text-align: left;
+    font-family: "Montserrat" , sans-serif;
+    font-size: 20px;
+}
+
+.ecllipseBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

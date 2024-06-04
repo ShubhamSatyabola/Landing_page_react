@@ -1,0 +1,35 @@
+.slider-container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 50px; /* Adjust this value to position the pyramid vertically */
+}
+
+.slick-slide {
+    transform: scale(0.9); /* Adjust this value for the size of non-active slides */
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.slick-center {
+    transform: scale(1) translateY(-20px); /* Adjust the translateY value to raise the active slide */
+    z-index: 3;
+}
+
+
+
+.slide {
+    position: relative;
+}
+
+.slide:nth-child(2),
+.slide:nth-child(4) {
+    top: 20px; /* Adjust to move the second and fourth slides down */
+   
+}
+
+.slide:nth-child(1),
+.slide:nth-child(3),
+.slide:nth-child(5) {
+    top: 40px; /* Adjust to move the first, third, and fifth slides further down */
+}
